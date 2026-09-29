@@ -1,0 +1,132 @@
+{
+  "schema": 1,
+  "artboard": "The Haunted Terminal",
+  "stateMachine": "Haunted System",
+  "viewModel": {
+    "name": "Default",
+    "viewModel": "HauntedSystem",
+    "properties": [
+      {
+        "name": "state",
+        "path": "state",
+        "type": "number",
+        "value": 5,
+        "changed": true
+      },
+      {
+        "name": "ghostX",
+        "path": "ghostX",
+        "type": "number",
+        "value": 559.244934,
+        "changed": true
+      },
+      {
+        "name": "ghostY",
+        "path": "ghostY",
+        "type": "number",
+        "value": 212.867752,
+        "changed": true
+      },
+      {
+        "name": "entityOpacity",
+        "path": "entityOpacity",
+        "type": "number",
+        "value": 0.800000012,
+        "changed": true
+      },
+      {
+        "name": "doorScale",
+        "path": "doorScale",
+        "type": "number",
+        "value": 0.124814287,
+        "changed": true
+      },
+      {
+        "name": "darkOpacity",
+        "path": "darkOpacity",
+        "type": "number",
+        "value": 0,
+        "changed": false
+      },
+      {
+        "name": "glitch",
+        "path": "glitch",
+        "type": "number",
+        "value": 0,
+        "changed": true
+      },
+      {
+        "name": "mouseX",
+        "path": "mouseX",
+        "type": "number",
+        "value": 0.764140546,
+        "changed": true
+      },
+      {
+        "name": "mouseY",
+        "path": "mouseY",
+        "type": "number",
+        "value": 0.846597254,
+        "changed": true
+      },
+      {
+        "name": "cameraShift",
+        "path": "cameraShift",
+        "type": "number",
+        "value": 0,
+        "changed": false
+      },
+      {
+        "name": "terminalText",
+        "path": "terminalText",
+        "type": "string",
+        "value": "Connection established. You are not alone.\nType HELP, or click a control. Enter executes.\n> OPEN_DOOR\nContainment released. Something stopped breathing.\n> ESCAPE\nENDING 02: THE NEW OPERATOR. Type RESET to return.",
+        "changed": true
+      },
+      {
+        "name": "currentInput",
+        "path": "currentInput",
+        "type": "string",
+        "value": "> _",
+        "changed": true
+      },
+      {
+        "name": "statusText",
+        "path": "statusText",
+        "type": "string",
+        "value": "POWER                  34%\nSECURITY               OFFLINE\nCONTAINMENT            OPEN\nENTITY                 CONFIRMED",
+        "changed": true
+      },
+      {
+        "name": "cameraText",
+        "path": "cameraText",
+        "type": "string",
+        "value": "REC   CAM_01 / CONTROL ROOM",
+        "changed": false
+      },
+      {
+        "name": "currentCommand",
+        "path": "currentCommand",
+        "type": "string",
+        "value": "",
+        "changed": false
+      },
+      {
+        "name": "endingText",
+        "path": "endingText",
+        "type": "string",
+        "value": "IT FOLLOWED YOU. / Your room is not empty anymore.",
+        "changed": true
+      },
+      {
+        "name": "scareOpacity",
+        "path": "scareOpacity",
+        "type": "number",
+        "value": 1,
+        "changed": true
+      }
+    ]
+  },
+  "globals": [],
+  "nested": []
+}

@@ -1,0 +1,1064 @@
+<Rive version="1" kind="fragment">
+<Artboard name="The Haunted Terminal" id="0:2" width="1280" height="900" clip="true" styleId="0:5" defaultStateMachineId="0:7" viewModelId="0:40" viewModelInstanceId="0:41">
+<LayoutComponentStyle id="0:5"/>
+<LayoutComponent name="Native input" width="1280" height="900" styleId="0:11">
+<LayoutComponentStyle id="0:11" layoutWidthScaleType="1" layoutHeightScaleType="1" widthUnitsValue="3" heightUnitsValue="3"/>
+<ScriptedLayout name="Terminal controller" id="0:12" scriptAssetId="0:80">
+<FocusData/>
+</ScriptedLayout>
+</LayoutComponent>
+<Text name="Ending" x="58" y="580" width="806" height="36" sizingValue="fixed" overflowValue="clipped">
+<TextStylePaint id="0:1025" fontSize="17" fontAssetId="0:90">
+<Fill>
+<SolidColor colorValue="FFE6D9B4"/>
+</Fill>
+</TextStylePaint>
+<TextValueRun styleId="0:1025" text="">
+<DataBindContext sourcePathIds="0:40-0:116" propertyKey="268"/>
+</TextValueRun>
+</Text>
+<Text name="Reset" x="924" y="829" width="300" height="25" sizingValue="fixed" overflowValue="clipped">
+<TextStylePaint id="0:1024" fontSize="13" fontAssetId="0:90">
+<Fill>
+<SolidColor colorValue="FFB9CEA0"/>
+</Fill>
+</TextStylePaint>
+<TextValueRun styleId="0:1024" text="RESTART SESSION  ↺">
+</TextValueRun>
+</Text>
+<Shape name="Reset button" x="900" y="812">
+<Rectangle width="340" height="55" originX="0" originY="0"/>
+<Fill>
+<SolidColor colorValue="FF293421"/>
+</Fill>
+</Shape>
+<Text name="Escape" x="924" y="757" width="300" height="30" sizingValue="fixed" overflowValue="clipped">
+<TextStylePaint id="0:1023" fontSize="15" fontAssetId="0:90">
+<Fill>
+<SolidColor colorValue="FF152211"/>
+</Fill>
+</TextStylePaint>
+<TextValueRun styleId="0:1023" text="ATTEMPT ESCAPE  →">
+</TextValueRun>
+</Text>
+<Shape name="Escape button" x="900" y="740">
+<Rectangle width="340" height="55" originX="0" originY="0"/>
+<Fill>
+<SolidColor colorValue="FFB6CF8D"/>
+</Fill>
+</Shape>
+<Text name="Hint" x="924" y="637" width="278" height="50" sizingValue="fixed" overflowValue="clipped">
+<TextStylePaint id="0:1022" fontSize="10" fontAssetId="0:90">
+<Fill>
+<SolidColor colorValue="FF9BA87C"/>
+</Fill>
+</TextStylePaint>
+<TextValueRun styleId="0:1022" text="It can only follow what&#10;the light reveals.">
+</TextValueRun>
+</Text>
+<Text name="Operator note" x="924" y="533" width="285" height="100" sizingValue="fixed" overflowValue="clipped">
+<TextStylePaint id="0:1021" fontSize="18" fontAssetId="0:90">
+<Fill>
+<SolidColor colorValue="FFADBDA0"/>
+</Fill>
+</TextStylePaint>
+<TextValueRun styleId="0:1021" text="The last person who used&#10;this terminal never&#10;logged out.">
+</TextValueRun>
+</Text>
+<Text name="Warning label" x="944" y="477" width="265" height="25" sizingValue="fixed" overflowValue="clipped">
+<TextStylePaint id="0:1020" fontSize="10" fontAssetId="0:90">
+<Fill>
+<SolidColor colorValue="FFD1B488"/>
+</Fill>
+</TextStylePaint>
+<TextValueRun styleId="0:1020" text="SOMETHING IS LISTENING.">
+</TextValueRun>
+</Text>
+<Shape x="930" y="485" name="Warning indicator" id="0:200">
+<Ellipse width="8" height="8"/>
+<Fill>
+<SolidColor colorValue="FFC6906F"/>
+</Fill>
+</Shape>
+<Text name="Diagnostics values" x="924" y="363" width="300" height="105" sizingValue="fixed" overflowValue="clipped">
+<TextStylePaint id="0:1019" fontSize="12" fontAssetId="0:90">
+<Fill>
+<SolidColor colorValue="FFB6C89D"/>
+</Fill>
+</TextStylePaint>
+<TextValueRun styleId="0:1019" text="POWER                  43%&#10;SECURITY               OFFLINE&#10;CONTAINMENT            LOCKED&#10;ENTITY                 DETECTED">
+<DataBindContext sourcePathIds="0:40-0:113" propertyKey="268"/>
+</TextValueRun>
+</Text>
+<Text name="OS version" x="924" y="307" width="280" height="24" sizingValue="fixed" overflowValue="clipped">
+<TextStylePaint id="0:1018" fontSize="9" fontAssetId="0:90">
+<Fill>
+<SolidColor colorValue="FF8B9F71"/>
+</Fill>
+</TextStylePaint>
+<TextValueRun styleId="0:1018" text="VERSION 6.66.0 / BUILD 1986">
+</TextValueRun>
+</Text>
+<Text name="Operating system" x="924" y="269" width="280" height="35" sizingValue="fixed" overflowValue="clipped">
+<TextStylePaint id="0:1017" fontSize="22" fontAssetId="0:90">
+<Fill>
+<SolidColor colorValue="FFCFDABA"/>
+</Fill>
+</TextStylePaint>
+<TextValueRun styleId="0:1017" text="HAUNTED OS">
+</TextValueRun>
+</Text>
+<Shape name="Diagnostics divider" x="924" y="244">
+<Rectangle width="292" height="1" originX="0" originY="0"/>
+<Fill>
+<SolidColor colorValue="FF3C4A31"/>
+</Fill>
+</Shape>
+<Text name="Diagnostics header" x="924" y="203" width="295" height="30" sizingValue="fixed" overflowValue="clipped">
+<TextStylePaint id="0:1016" fontSize="12" fontAssetId="0:90">
+<Fill>
+<SolidColor colorValue="FFCCDBB7"/>
+</Fill>
+</TextStylePaint>
+<TextValueRun styleId="0:1016" text="SYSTEM DIAGNOSTICS">
+</TextValueRun>
+</Text>
+<Shape name="Diagnostics card" x="900" y="180">
+<Rectangle width="340" height="521" originX="0" originY="0"/>
+<Fill>
+<SolidColor colorValue="FF192216"/>
+</Fill>
+</Shape>
+<Text name="Command input" x="58" y="845" width="798" height="22" sizingValue="fixed" overflowValue="clipped">
+<TextStylePaint id="0:1015" fontSize="12" fontAssetId="0:90">
+<Fill>
+<SolidColor colorValue="FFD0E3AF"/>
+</Fill>
+</TextStylePaint>
+<TextValueRun styleId="0:1015" text="> _">
+<DataBindContext sourcePathIds="0:40-0:112" propertyKey="268"/>
+</TextValueRun>
+</Text>
+<Text name="Terminal output" x="58" y="750" width="800" height="91" sizingValue="fixed" overflowValue="clipped">
+<TextStylePaint id="0:1014" fontSize="11" fontAssetId="0:90">
+<Fill>
+<SolidColor colorValue="FFB4CA9A"/>
+</Fill>
+</TextStylePaint>
+<TextValueRun styleId="0:1014" text="HAUNTED SYSTEM OS v6.66 / ACHERON RESEARCH&#10;Connection established. You are not alone.&#10;Type HELP, or click a control. Enter executes.">
+<DataBindContext sourcePathIds="0:40-0:111" propertyKey="268"/>
+</TextValueRun>
+</Text>
+<Text name="Command terminal header" x="58" y="731" width="800" height="30" sizingValue="fixed" overflowValue="clipped">
+<TextStylePaint id="0:1013" fontSize="9" fontAssetId="0:90">
+<Fill>
+<SolidColor colorValue="FF849C6D"/>
+</Fill>
+</TextStylePaint>
+<TextValueRun styleId="0:1013" text="COMMAND TERMINAL / bash — local session">
+</TextValueRun>
+</Text>
+<Shape name="Console background" x="40" y="720">
+<Rectangle width="840" height="149" originX="0" originY="0"/>
+<Fill>
+<SolidColor colorValue="FF0A120C"/>
+</Fill>
+</Shape>
+<Text name="SWITCH CAMERA" x="621" y="669" width="255" height="23" sizingValue="fixed" overflowValue="clipped">
+<TextStylePaint id="0:1012" fontSize="12" fontAssetId="0:90">
+<Fill>
+<SolidColor colorValue="FFC5DCA2"/>
+</Fill>
+</TextStylePaint>
+<TextValueRun styleId="0:1012" text="SWITCH CAMERA  ↗">
+</TextValueRun>
+</Text>
+<Shape name="SWITCH CAMERA button" x="600" y="652">
+<Rectangle width="278" height="50" originX="0" originY="0"/>
+<Fill>
+<SolidColor colorValue="FF26301E"/>
+</Fill>
+</Shape>
+<Text name="LIGHTS ON / OFF" x="341" y="669" width="255" height="23" sizingValue="fixed" overflowValue="clipped">
+<TextStylePaint id="0:1011" fontSize="12" fontAssetId="0:90">
+<Fill>
+<SolidColor colorValue="FFC5DCA2"/>
+</Fill>
+</TextStylePaint>
+<TextValueRun styleId="0:1011" text="LIGHTS ON / OFF  ↗">
+</TextValueRun>
+</Text>
+<Shape name="LIGHTS ON / OFF button" x="320" y="652">
+<Rectangle width="278" height="50" originX="0" originY="0"/>
+<Fill>
+<SolidColor colorValue="FF26301E"/>
+</Fill>
+</Shape>
+<Text name="OPEN DOOR" x="61" y="669" width="255" height="23" sizingValue="fixed" overflowValue="clipped">
+<TextStylePaint id="0:1010" fontSize="12" fontAssetId="0:90">
+<Fill>
+<SolidColor colorValue="FFC5DCA2"/>
+</Fill>
+</TextStylePaint>
+<TextValueRun styleId="0:1010" text="OPEN DOOR  ↗">
+</TextValueRun>
+</Text>
+<Shape name="OPEN DOOR button" x="40" y="652">
+<Rectangle width="278" height="50" originX="0" originY="0"/>
+<Fill>
+<SolidColor colorValue="FF26301E"/>
+</Fill>
+</Shape>
+<Text name="Room footer" x="60" y="617" width="800" height="30" sizingValue="fixed" overflowValue="clipped">
+<TextStylePaint id="0:1009" fontSize="9" fontAssetId="0:90">
+<Fill>
+<SolidColor colorValue="FF8A9D78"/>
+</Fill>
+</TextStylePaint>
+<TextValueRun styleId="0:1009" text="SECTOR 07 / SUBLEVEL 03                                   28.10.1986 / 03:33:07">
+</TextValueRun>
+</Text>
+<Text name="Camera label" x="60" y="197" width="800" height="30" sizingValue="fixed" overflowValue="clipped">
+<TextStylePaint id="0:1008" fontSize="10" fontAssetId="0:90">
+<Fill>
+<SolidColor colorValue="FFBCCCAB"/>
+</Fill>
+</TextStylePaint>
+<TextValueRun styleId="0:1008" text="REC / CAM_01 — CONTROL ROOM">
+<DataBindContext sourcePathIds="0:40-0:114" propertyKey="268"/>
+</TextValueRun>
+</Text>
+<Node name="Entity reveal" x="40" y="180">
+<DataBindContext sourcePathIds="0:40-0:117" propertyKey="18"/>
+<Shape name="Void mouth" x="420" y="280">
+<Ellipse width="70" height="150" originX="0.5" originY="0.5"/>
+<Fill>
+<SolidColor colorValue="FF020503"/>
+</Fill>
+</Shape>
+<Shape name="Watching left" x="340" y="170">
+<Ellipse width="14" height="40" originX="0.5" originY="0.5"/>
+<Fill>
+<SolidColor colorValue="FFE7B395"/>
+</Fill>
+</Shape>
+<Shape name="Watching right" x="500" y="170">
+<Ellipse width="14" height="40" originX="0.5" originY="0.5"/>
+<Fill>
+<SolidColor colorValue="FFE7B395"/>
+</Fill>
+</Shape>
+<Shape name="Creature face">
+<PointsPath isClosed="true">
+<StraightVertex x="200" y="470"/>
+<StraightVertex x="240" y="170"/>
+<StraightVertex x="310" y="40"/>
+<StraightVertex x="420" y="0"/>
+<StraightVertex x="530" y="40"/>
+<StraightVertex x="600" y="170"/>
+<StraightVertex x="640" y="470"/>
+</PointsPath>
+<Fill>
+<SolidColor colorValue="FF26382E"/>
+</Fill>
+</Shape>
+<Shape name="End veil" x="0" y="0">
+<Rectangle width="840" height="470" originX="0" originY="0"/>
+<Fill>
+<SolidColor colorValue="ED030805"/>
+</Fill>
+</Shape>
+</Node>
+<Node name="Eyes in the darkness" x="40" y="180">
+<DataBindContext sourcePathIds="0:40-0:106" propertyKey="18"/>
+<Node name="Eye tracking">
+<DataBindContext sourcePathIds="0:40-0:102" propertyKey="13"/>
+<DataBindContext sourcePathIds="0:40-0:103" propertyKey="14"/>
+<Shape name="Eye left" x="-8" y="-15">
+<Ellipse width="5" height="10" originX="0.5" originY="0.5"/>
+<Fill>
+<SolidColor colorValue="FFD5ECC3"/>
+</Fill>
+</Shape>
+<Shape name="Eye right" x="10" y="-15">
+<Ellipse width="5" height="10" originX="0.5" originY="0.5"/>
+<Fill>
+<SolidColor colorValue="FFD5ECC3"/>
+</Fill>
+</Shape>
+</Node>
+</Node>
+<Node name="Surveillance room" x="40" y="180">
+<ScriptedDrawable name="GPU / crt-glitch" scriptAssetId="0:81">
+<ScriptInputString name="effectName" propertyValue="crt-glitch"/>
+<ScriptInputNumber name="width" propertyValue="840"/>
+<ScriptInputNumber name="height" propertyValue="470"/>
+</ScriptedDrawable>
+<ScriptedDrawable name="GPU / ghost-glow" scriptAssetId="0:81">
+<ScriptInputString name="effectName" propertyValue="ghost-glow"/>
+<ScriptInputNumber name="width" propertyValue="840"/>
+<ScriptInputNumber name="height" propertyValue="470"/>
+</ScriptedDrawable>
+<Shape name="Lights off overlay" x="0" y="0">
+<DataBindContext sourcePathIds="0:40-0:106" propertyKey="18"/>
+<Rectangle width="840" height="470" originX="0" originY="0"/>
+<Fill>
+<SolidColor colorValue="FF000503"/>
+</Fill>
+</Shape>
+<ScriptedDrawable name="GPU / fog" scriptAssetId="0:81">
+<ScriptInputString name="effectName" propertyValue="fog"/>
+<ScriptInputNumber name="width" propertyValue="840"/>
+<ScriptInputNumber name="height" propertyValue="470"/>
+</ScriptedDrawable>
+<ScriptedDrawable name="GPU / candle-flicker" scriptAssetId="0:81">
+<ScriptInputString name="effectName" propertyValue="candle-flicker"/>
+<ScriptInputNumber name="width" propertyValue="840"/>
+<ScriptInputNumber name="height" propertyValue="470"/>
+</ScriptedDrawable>
+<Node name="Camera pan">
+<DataBindContext sourcePathIds="0:40-0:110" propertyKey="13"/>
+<Shape name="Rack LED" x="801" y="343">
+<Ellipse width="3" height="3" originX="0.5" originY="0.5"/>
+<Fill>
+<SolidColor colorValue="FFADBA83"/>
+</Fill>
+</Shape>
+<Shape name="Rack unit" x="762" y="337">
+<Rectangle width="47" height="13" originX="0" originY="0"/>
+<Fill>
+<SolidColor colorValue="FF263A23"/>
+</Fill>
+</Shape>
+<Shape name="Rack LED" x="801" y="325">
+<Ellipse width="3" height="3" originX="0.5" originY="0.5"/>
+<Fill>
+<SolidColor colorValue="FFADBA83"/>
+</Fill>
+</Shape>
+<Shape name="Rack unit" x="762" y="319">
+<Rectangle width="47" height="13" originX="0" originY="0"/>
+<Fill>
+<SolidColor colorValue="FF263A23"/>
+</Fill>
+</Shape>
+<Shape name="Rack LED" x="801" y="307">
+<Ellipse width="3" height="3" originX="0.5" originY="0.5"/>
+<Fill>
+<SolidColor colorValue="FFADBA83"/>
+</Fill>
+</Shape>
+<Shape name="Rack unit" x="762" y="301">
+<Rectangle width="47" height="13" originX="0" originY="0"/>
+<Fill>
+<SolidColor colorValue="FF263A23"/>
+</Fill>
+</Shape>
+<Shape name="Rack LED" x="801" y="289">
+<Ellipse width="3" height="3" originX="0.5" originY="0.5"/>
+<Fill>
+<SolidColor colorValue="FFADBA83"/>
+</Fill>
+</Shape>
+<Shape name="Rack unit" x="762" y="283">
+<Rectangle width="47" height="13" originX="0" originY="0"/>
+<Fill>
+<SolidColor colorValue="FF263A23"/>
+</Fill>
+</Shape>
+<Shape name="Rack LED" x="801" y="271">
+<Ellipse width="3" height="3" originX="0.5" originY="0.5"/>
+<Fill>
+<SolidColor colorValue="FFADBA83"/>
+</Fill>
+</Shape>
+<Shape name="Rack unit" x="762" y="265">
+<Rectangle width="47" height="13" originX="0" originY="0"/>
+<Fill>
+<SolidColor colorValue="FF263A23"/>
+</Fill>
+</Shape>
+<Shape name="Rack LED" x="801" y="253">
+<Ellipse width="3" height="3" originX="0.5" originY="0.5"/>
+<Fill>
+<SolidColor colorValue="FFADBA83"/>
+</Fill>
+</Shape>
+<Shape name="Rack unit" x="762" y="247">
+<Rectangle width="47" height="13" originX="0" originY="0"/>
+<Fill>
+<SolidColor colorValue="FF263A23"/>
+</Fill>
+</Shape>
+<Shape name="Rack LED" x="801" y="235">
+<Ellipse width="3" height="3" originX="0.5" originY="0.5"/>
+<Fill>
+<SolidColor colorValue="FFADBA83"/>
+</Fill>
+</Shape>
+<Shape name="Rack unit" x="762" y="229">
+<Rectangle width="47" height="13" originX="0" originY="0"/>
+<Fill>
+<SolidColor colorValue="FF263A23"/>
+</Fill>
+</Shape>
+<Shape name="Rack LED" x="801" y="217">
+<Ellipse width="3" height="3" originX="0.5" originY="0.5"/>
+<Fill>
+<SolidColor colorValue="FFADBA83"/>
+</Fill>
+</Shape>
+<Shape name="Rack unit" x="762" y="211">
+<Rectangle width="47" height="13" originX="0" originY="0"/>
+<Fill>
+<SolidColor colorValue="FF263A23"/>
+</Fill>
+</Shape>
+<Shape name="Rack housing" x="756" y="200">
+<Rectangle width="61" height="155" originX="0" originY="0"/>
+<Fill>
+<SolidColor colorValue="FF0D170D"/>
+</Fill>
+</Shape>
+<Shape name="Mouse" x="404" y="349">
+<Ellipse width="24" height="10" originX="0.5" originY="0.5"/>
+<Fill>
+<SolidColor colorValue="FF5C6A45"/>
+</Fill>
+</Shape>
+<Shape name="Coffee mug" x="162" y="317">
+<Rectangle width="17" height="22" originX="0" originY="0"/>
+<Fill>
+<SolidColor colorValue="FF858668"/>
+</Fill>
+</Shape>
+<Shape name="Keys" x="224" y="352">
+<Rectangle width="130" height="1" originX="0" originY="0"/>
+<Fill>
+<SolidColor colorValue="FF273D22"/>
+</Fill>
+</Shape>
+<Shape name="Keys" x="224" y="349">
+<Rectangle width="130" height="1" originX="0" originY="0"/>
+<Fill>
+<SolidColor colorValue="FF273D22"/>
+</Fill>
+</Shape>
+<Shape name="Keys" x="224" y="346">
+<Rectangle width="130" height="1" originX="0" originY="0"/>
+<Fill>
+<SolidColor colorValue="FF273D22"/>
+</Fill>
+</Shape>
+<Shape name="Keyboard">
+<PointsPath isClosed="true">
+<StraightVertex x="226" y="343"/>
+<StraightVertex x="356" y="343"/>
+<StraightVertex x="373" y="355"/>
+<StraightVertex x="212" y="355"/>
+</PointsPath>
+<Fill>
+<SolidColor colorValue="FF66754E"/>
+</Fill>
+</Shape>
+<Shape name="Power LED" x="373" y="298">
+<Ellipse width="4" height="4" originX="0.5" originY="0.5"/>
+<Fill>
+<SolidColor colorValue="FFCCE8A4"/>
+</Fill>
+</Shape>
+<Text name="CRT activity" x="230" y="236" width="147" height="48" sizingValue="fixed" overflowValue="clipped">
+<TextStylePaint id="0:1003" fontSize="7" fontAssetId="0:90">
+<Fill>
+<SolidColor colorValue="FFB3CE94"/>
+</Fill>
+</TextStylePaint>
+<TextValueRun styleId="0:1003" text="> SIGNAL FOUND&#10;> YOU ARE NOT ALONE.&#10;> _">
+</TextValueRun>
+</Text>
+<Text name="CRT label" x="230" y="215" width="150" height="15" sizingValue="fixed" overflowValue="clipped">
+<TextStylePaint id="0:1002" fontSize="7" fontAssetId="0:90">
+<Fill>
+<SolidColor colorValue="FFCADDA4"/>
+</Fill>
+</TextStylePaint>
+<TextValueRun styleId="0:1002" text="ACHERON RESEARCH SYSTEMS">
+</TextValueRun>
+</Text>
+<Shape name="CRT phosphor" x="221" y="206">
+<Rectangle width="152" height="80" originX="0" originY="0"/>
+<Fill>
+<SolidColor colorValue="FF293D26"/>
+</Fill>
+</Shape>
+<Shape name="CRT bezel" x="216" y="201">
+<Rectangle width="162" height="91" originX="0" originY="0"/>
+<Fill>
+<SolidColor colorValue="FF17261A"/>
+</Fill>
+</Shape>
+<Shape name="CRT housing" x="205" y="192">
+<Rectangle width="184" height="113" originX="0" originY="0"/>
+<Fill>
+<SolidColor colorValue="FF556046"/>
+</Fill>
+</Shape>
+<Shape name="Monitor base">
+<PointsPath isClosed="true">
+<StraightVertex x="239" y="329"/>
+<StraightVertex x="336" y="329"/>
+<StraightVertex x="348" y="339"/>
+<StraightVertex x="227" y="339"/>
+</PointsPath>
+<Fill>
+<SolidColor colorValue="FF4D5C40"/>
+</Fill>
+</Shape>
+<Shape name="Monitor stand" x="267" y="299">
+<Rectangle width="45" height="30" originX="0" originY="0"/>
+<Fill>
+<SolidColor colorValue="FF435139"/>
+</Fill>
+</Shape>
+<Shape name="Right desk leg" x="510" y="370">
+<Rectangle width="14" height="100" originX="0" originY="0"/>
+<Fill>
+<SolidColor colorValue="FF283222"/>
+</Fill>
+</Shape>
+<Shape name="Left desk leg" x="118" y="370">
+<Rectangle width="14" height="100" originX="0" originY="0"/>
+<Fill>
+<SolidColor colorValue="FF283222"/>
+</Fill>
+</Shape>
+<Shape name="Desk edge" x="95" y="361">
+<Rectangle width="451" height="11" originX="0" originY="0"/>
+<Fill>
+<SolidColor colorValue="FF111A11"/>
+</Fill>
+</Shape>
+<Shape name="Desk top">
+<PointsPath isClosed="true">
+<StraightVertex x="130" y="336"/>
+<StraightVertex x="495" y="336"/>
+<StraightVertex x="546" y="361"/>
+<StraightVertex x="95" y="361"/>
+</PointsPath>
+<Fill>
+<SolidColor colorValue="FF46503A"/>
+</Fill>
+</Shape>
+<Node name="Tracking ghost">
+<DataBindContext sourcePathIds="0:40-0:102" propertyKey="13"/>
+<DataBindContext sourcePathIds="0:40-0:103" propertyKey="14"/>
+<DataBindContext sourcePathIds="0:40-0:104" propertyKey="18"/>
+<Shape name="Left eye" x="-8" y="-15">
+<Ellipse width="5" height="10" originX="0.5" originY="0.5"/>
+<Fill>
+<SolidColor colorValue="FFE0EFD0"/>
+</Fill>
+</Shape>
+<Shape name="Right eye" x="10" y="-15">
+<Ellipse width="5" height="10" originX="0.5" originY="0.5"/>
+<Fill>
+<SolidColor colorValue="FFE0EFD0"/>
+</Fill>
+</Shape>
+<Shape name="Mouth" x="1" y="8">
+<Ellipse width="8" height="17" originX="0.5" originY="0.5"/>
+<Fill>
+<SolidColor colorValue="FF07110B"/>
+</Fill>
+</Shape>
+<Shape name="Spectral sheet">
+<PointsPath isClosed="true">
+<StraightVertex x="-28" y="60"/>
+<StraightVertex x="-26" y="-8"/>
+<StraightVertex x="-18" y="-35"/>
+<StraightVertex x="0" y="-46"/>
+<StraightVertex x="21" y="-29"/>
+<StraightVertex x="29" y="12"/>
+<StraightVertex x="31" y="64"/>
+<StraightVertex x="15" y="48"/>
+<StraightVertex x="0" y="66"/>
+<StraightVertex x="-13" y="49"/>
+</PointsPath>
+<Fill>
+<SolidColor colorValue="668CAE94"/>
+</Fill>
+</Shape>
+</Node>
+<Shape name="Ceiling light" x="309" y="65">
+<Rectangle width="157" height="4" originX="0" originY="0"/>
+<Fill>
+<SolidColor colorValue="FFC4DDA1"/>
+</Fill>
+</Shape>
+<Shape name="Ceiling fixture" x="300" y="57">
+<Rectangle width="175" height="8" originX="0" originY="0"/>
+<Fill>
+<SolidColor colorValue="FF647452"/>
+</Fill>
+</Shape>
+<Shape name="Circuit vent" x="170" y="256">
+<Rectangle width="64" height="2" originX="0" originY="0"/>
+<Fill>
+<SolidColor colorValue="FF151F15"/>
+</Fill>
+</Shape>
+<Shape name="Circuit vent" x="170" y="246">
+<Rectangle width="64" height="2" originX="0" originY="0"/>
+<Fill>
+<SolidColor colorValue="FF151F15"/>
+</Fill>
+</Shape>
+<Shape name="Circuit vent" x="170" y="236">
+<Rectangle width="64" height="2" originX="0" originY="0"/>
+<Fill>
+<SolidColor colorValue="FF151F15"/>
+</Fill>
+</Shape>
+<Shape name="Circuit vent" x="170" y="226">
+<Rectangle width="64" height="2" originX="0" originY="0"/>
+<Fill>
+<SolidColor colorValue="FF151F15"/>
+</Fill>
+</Shape>
+<Shape name="Circuit vent" x="170" y="216">
+<Rectangle width="64" height="2" originX="0" originY="0"/>
+<Fill>
+<SolidColor colorValue="FF151F15"/>
+</Fill>
+</Shape>
+<Shape name="Circuit vent" x="170" y="206">
+<Rectangle width="64" height="2" originX="0" originY="0"/>
+<Fill>
+<SolidColor colorValue="FF151F15"/>
+</Fill>
+</Shape>
+<Shape name="Circuit vent" x="170" y="196">
+<Rectangle width="64" height="2" originX="0" originY="0"/>
+<Fill>
+<SolidColor colorValue="FF151F15"/>
+</Fill>
+</Shape>
+<Shape name="Circuit vent" x="170" y="186">
+<Rectangle width="64" height="2" originX="0" originY="0"/>
+<Fill>
+<SolidColor colorValue="FF151F15"/>
+</Fill>
+</Shape>
+<Shape name="Circuit box" x="160" y="166">
+<Rectangle width="85" height="112" originX="0" originY="0"/>
+<Fill>
+<SolidColor colorValue="FF293426"/>
+</Fill>
+</Shape>
+<Text name="Restricted sign" x="627" y="128" width="130" height="15" sizingValue="fixed" overflowValue="clipped">
+<TextStylePaint id="0:1001" fontSize="8" fontAssetId="0:90">
+<Fill>
+<SolidColor colorValue="FFBF9770"/>
+</Fill>
+</TextStylePaint>
+<TextValueRun styleId="0:1001" text="RESTRICTED / 07">
+</TextValueRun>
+</Text>
+<Node name="Door hinge" x="625" y="155">
+<DataBindContext sourcePathIds="0:40-0:105" propertyKey="16"/>
+<Text name="Door number" x="22" y="67" width="65" height="40" sizingValue="fixed" overflowValue="clipped">
+<TextStylePaint id="0:1000" fontSize="25" fontAssetId="0:90">
+<Fill>
+<SolidColor colorValue="FF899570"/>
+</Fill>
+</TextStylePaint>
+<TextValueRun styleId="0:1000" text="07">
+</TextValueRun>
+</Text>
+<Shape name="Door handle" x="82" y="114">
+<Rectangle width="5" height="17" originX="0" originY="0"/>
+<Fill>
+<SolidColor colorValue="FF95A47D"/>
+</Fill>
+</Shape>
+<Shape name="Door panel inset" x="9" y="12">
+<Rectangle width="78" height="85" originX="0" originY="0"/>
+<Fill>
+<SolidColor colorValue="FF19281C"/>
+</Fill>
+</Shape>
+<Shape name="Steel door" x="0" y="0">
+<Rectangle width="98" height="184" originX="0" originY="0"/>
+<Fill>
+<SolidColor colorValue="FF2F3D2A"/>
+</Fill>
+</Shape>
+</Node>
+<Shape name="Unlit passage" x="625" y="155">
+<Rectangle width="98" height="185" originX="0" originY="0"/>
+<Fill>
+<SolidColor colorValue="FF030805"/>
+</Fill>
+</Shape>
+<Shape name="Containment frame" x="619" y="150">
+<Rectangle width="110" height="190" originX="0" originY="0"/>
+<Fill>
+<SolidColor colorValue="FF3A4732"/>
+</Fill>
+</Shape>
+<Shape name="Lower conduit" x="140" y="123">
+<Rectangle width="450" height="4" originX="0" originY="0"/>
+<Fill>
+<SolidColor colorValue="FF293925"/>
+</Fill>
+</Shape>
+<Shape name="Upper conduit" x="140" y="110">
+<Rectangle width="580" height="6" originX="0" originY="0"/>
+<Fill>
+<SolidColor colorValue="FF34422D"/>
+</Fill>
+</Shape>
+<Shape name="Floor seam" x="0" y="453">
+<Rectangle width="840" height="1" originX="0" originY="0"/>
+<Fill>
+<SolidColor colorValue="FF233020"/>
+</Fill>
+</Shape>
+<Shape name="Floor seam" x="0" y="409">
+<Rectangle width="840" height="1" originX="0" originY="0"/>
+<Fill>
+<SolidColor colorValue="FF233020"/>
+</Fill>
+</Shape>
+<Shape name="Floor seam" x="0" y="365">
+<Rectangle width="840" height="1" originX="0" originY="0"/>
+<Fill>
+<SolidColor colorValue="FF233020"/>
+</Fill>
+</Shape>
+<Shape name="Wall seam" x="735" y="60">
+<Rectangle width="1" height="270" originX="0" originY="0"/>
+<Fill>
+<SolidColor colorValue="FF2A392B"/>
+</Fill>
+</Shape>
+<Shape name="Wall seam" x="615" y="60">
+<Rectangle width="1" height="270" originX="0" originY="0"/>
+<Fill>
+<SolidColor colorValue="FF2A392B"/>
+</Fill>
+</Shape>
+<Shape name="Wall seam" x="495" y="60">
+<Rectangle width="1" height="270" originX="0" originY="0"/>
+<Fill>
+<SolidColor colorValue="FF2A392B"/>
+</Fill>
+</Shape>
+<Shape name="Wall seam" x="375" y="60">
+<Rectangle width="1" height="270" originX="0" originY="0"/>
+<Fill>
+<SolidColor colorValue="FF2A392B"/>
+</Fill>
+</Shape>
+<Shape name="Wall seam" x="255" y="60">
+<Rectangle width="1" height="270" originX="0" originY="0"/>
+<Fill>
+<SolidColor colorValue="FF2A392B"/>
+</Fill>
+</Shape>
+<Shape name="Wall seam" x="135" y="60">
+<Rectangle width="1" height="270" originX="0" originY="0"/>
+<Fill>
+<SolidColor colorValue="FF2A392B"/>
+</Fill>
+</Shape>
+<Shape name="Floor">
+<PointsPath isClosed="true">
+<StraightVertex x="135" y="330"/>
+<StraightVertex x="728" y="330"/>
+<StraightVertex x="840" y="470"/>
+<StraightVertex x="0" y="470"/>
+</PointsPath>
+<Fill>
+<SolidColor colorValue="FF121D15"/>
+</Fill>
+</Shape>
+<Shape name="Right wall">
+<PointsPath isClosed="true">
+<StraightVertex x="840" y="0"/>
+<StraightVertex x="728" y="60"/>
+<StraightVertex x="728" y="330"/>
+<StraightVertex x="840" y="440"/>
+</PointsPath>
+<Fill>
+<SolidColor colorValue="FF0B140F"/>
+</Fill>
+</Shape>
+<Shape name="Left wall">
+<PointsPath isClosed="true">
+<StraightVertex x="0" y="0"/>
+<StraightVertex x="135" y="60"/>
+<StraightVertex x="135" y="330"/>
+<StraightVertex x="0" y="440"/>
+</PointsPath>
+<Fill>
+<SolidColor colorValue="FF18231B"/>
+</Fill>
+</Shape>
+<Shape name="Back wall" x="0" y="0">
+<Rectangle width="840" height="470" originX="0" originY="0"/>
+<Fill>
+<SolidColor colorValue="FF111B16"/>
+</Fill>
+</Shape>
+</Node>
+</Node>
+<Text name="Subtitle" x="40" y="153" width="800" height="30" sizingValue="fixed" overflowValue="clipped">
+<TextStylePaint id="0:1007" fontSize="11" fontAssetId="0:90">
+<Fill>
+<SolidColor colorValue="FF8D9B7D"/>
+</Fill>
+</TextStylePaint>
+<TextValueRun styleId="0:1007" text="An abandoned system. An open connection. Something on the other side.">
+</TextValueRun>
+</Text>
+<Text name="Title" x="38" y="99" width="1100" height="57" sizingValue="fixed" overflowValue="clipped">
+<TextStylePaint id="0:1006" fontSize="43" fontAssetId="0:90">
+<Fill>
+<SolidColor colorValue="FFE0E6D5"/>
+</Fill>
+</TextStylePaint>
+<TextValueRun styleId="0:1006" text="THE HAUNTED TERMINAL_">
+</TextValueRun>
+</Text>
+<Text name="Experiment label" x="40" y="80" width="800" height="30" sizingValue="fixed" overflowValue="clipped">
+<TextStylePaint id="0:1005" fontSize="10" fontAssetId="0:90">
+<Fill>
+<SolidColor colorValue="FF9DB67C"/>
+</Fill>
+</TextStylePaint>
+<TextValueRun styleId="0:1005" text="EXPERIMENT NO. 0066   /   INTERACTIVE HORROR EXPERIENCE">
+</TextValueRun>
+</Text>
+<Shape name="Header divider" x="40" y="56">
+<Rectangle width="1200" height="1" originX="0" originY="0"/>
+<Fill>
+<SolidColor colorValue="FF34402C"/>
+</Fill>
+</Shape>
+<Text name="Division label" x="40" y="20" width="800" height="30" sizingValue="fixed" overflowValue="clipped">
+<TextStylePaint id="0:1004" fontSize="12" fontAssetId="0:90">
+<Fill>
+<SolidColor colorValue="FFB9C99E"/>
+</Fill>
+</TextStylePaint>
+<TextValueRun styleId="0:1004" text="A / ACHERON    —    ANOMALOUS SYSTEMS DIVISION">
+</TextValueRun>
+</Text>
+<Shape name="Page background" x="0" y="0">
+<Rectangle width="1280" height="900" originX="0" originY="0"/>
+<Fill>
+<SolidColor colorValue="FF101510"/>
+</Fill>
+</Shape>
+<StateMachine name="Haunted System" id="0:7">
+<StateMachineLayer name="Narrative" id="0:8">
+<AnyState x="-200" y="-180">
+<StateTransition stateToId="0:300" duration="180">
+<TransitionViewModelCondition opValue="equal">
+<TransitionPropertyViewModelComparator>
+<BindablePropertyNumber>
+<DataBindContext sourcePathIds="0:40-0:101" propertyKey="636"/>
+</BindablePropertyNumber>
+</TransitionPropertyViewModelComparator>
+<TransitionValueNumberComparator value="0"/>
+</TransitionViewModelCondition>
+</StateTransition>
+<StateTransition stateToId="0:301" duration="180">
+<TransitionViewModelCondition opValue="equal">
+<TransitionPropertyViewModelComparator>
+<BindablePropertyNumber>
+<DataBindContext sourcePathIds="0:40-0:101" propertyKey="636"/>
+</BindablePropertyNumber>
+</TransitionPropertyViewModelComparator>
+<TransitionValueNumberComparator value="1"/>
+</TransitionViewModelCondition>
+</StateTransition>
+<StateTransition stateToId="0:302" duration="180">
+<TransitionViewModelCondition opValue="equal">
+<TransitionPropertyViewModelComparator>
+<BindablePropertyNumber>
+<DataBindContext sourcePathIds="0:40-0:101" propertyKey="636"/>
+</BindablePropertyNumber>
+</TransitionPropertyViewModelComparator>
+<TransitionValueNumberComparator value="2"/>
+</TransitionViewModelCondition>
+</StateTransition>
+<StateTransition stateToId="0:303" duration="180">
+<TransitionViewModelCondition opValue="equal">
+<TransitionPropertyViewModelComparator>
+<BindablePropertyNumber>
+<DataBindContext sourcePathIds="0:40-0:101" propertyKey="636"/>
+</BindablePropertyNumber>
+</TransitionPropertyViewModelComparator>
+<TransitionValueNumberComparator value="3"/>
+</TransitionViewModelCondition>
+</StateTransition>
+<StateTransition stateToId="0:304" duration="180">
+<TransitionViewModelCondition opValue="equal">
+<TransitionPropertyViewModelComparator>
+<BindablePropertyNumber>
+<DataBindContext sourcePathIds="0:40-0:101" propertyKey="636"/>
+</BindablePropertyNumber>
+</TransitionPropertyViewModelComparator>
+<TransitionValueNumberComparator value="4"/>
+</TransitionViewModelCondition>
+</StateTransition>
+<StateTransition stateToId="0:305" duration="180">
+<TransitionViewModelCondition opValue="equal">
+<TransitionPropertyViewModelComparator>
+<BindablePropertyNumber>
+<DataBindContext sourcePathIds="0:40-0:101" propertyKey="636"/>
+</BindablePropertyNumber>
+</TransitionPropertyViewModelComparator>
+<TransitionValueNumberComparator value="5"/>
+</TransitionViewModelCondition>
+</StateTransition>
+<StateTransition stateToId="0:306" duration="180">
+<TransitionViewModelCondition opValue="equal">
+<TransitionPropertyViewModelComparator>
+<BindablePropertyNumber>
+<DataBindContext sourcePathIds="0:40-0:101" propertyKey="636"/>
+</BindablePropertyNumber>
+</TransitionPropertyViewModelComparator>
+<TransitionValueNumberComparator value="6"/>
+</TransitionViewModelCondition>
+</StateTransition>
+</AnyState>
+<ExitState x="1100" y="-180"/>
+<EntryState x="-200" y="0">
+<StateTransition stateToId="0:300"/>
+</EntryState>
+<AnimationState x="0" y="0" animationId="0:400" id="0:300">
+<FocusActionTarget targetId="0:12"/>
+</AnimationState>
+<AnimationState x="170" y="160" animationId="0:401" id="0:301">
+</AnimationState>
+<AnimationState x="340" y="0" animationId="0:402" id="0:302">
+</AnimationState>
+<AnimationState x="510" y="160" animationId="0:403" id="0:303">
+</AnimationState>
+<AnimationState x="680" y="0" animationId="0:404" id="0:304">
+</AnimationState>
+<AnimationState x="850" y="160" animationId="0:405" id="0:305">
+</AnimationState>
+<AnimationState x="1020" y="0" animationId="0:406" id="0:306">
+</AnimationState>
+</StateMachineLayer>
+</StateMachine>
+<LinearAnimation name="Idle" id="0:400" fps="60" duration="120" loopValue="loop">
+<KeyedObject objectId="0:200">
+<KeyedProperty propertyKey="18">
+<KeyFrameDouble value="0.3" frame="0" interpolationType="linear"/>
+<KeyFrameDouble value="1" frame="60" interpolationType="linear"/>
+<KeyFrameDouble value="0.3" frame="120" interpolationType="linear"/>
+</KeyedProperty>
+</KeyedObject>
+</LinearAnimation>
+<LinearAnimation name="Investigation" id="0:401" fps="60" duration="120" loopValue="loop">
+<KeyedObject objectId="0:200">
+<KeyedProperty propertyKey="18">
+<KeyFrameDouble value="0.3" frame="0" interpolationType="linear"/>
+<KeyFrameDouble value="1" frame="60" interpolationType="linear"/>
+<KeyFrameDouble value="0.3" frame="120" interpolationType="linear"/>
+</KeyedProperty>
+</KeyedObject>
+</LinearAnimation>
+<LinearAnimation name="GhostVisible" id="0:402" fps="60" duration="120" loopValue="loop">
+<KeyedObject objectId="0:200">
+<KeyedProperty propertyKey="18">
+<KeyFrameDouble value="0.3" frame="0" interpolationType="linear"/>
+<KeyFrameDouble value="1" frame="60" interpolationType="linear"/>
+<KeyFrameDouble value="0.3" frame="120" interpolationType="linear"/>
+</KeyedProperty>
+</KeyedObject>
+</LinearAnimation>
+<LinearAnimation name="DoorOpening" id="0:403" fps="60" duration="120" loopValue="loop">
+<KeyedObject objectId="0:200">
+<KeyedProperty propertyKey="18">
+<KeyFrameDouble value="0.3" frame="0" interpolationType="linear"/>
+<KeyFrameDouble value="1" frame="60" interpolationType="linear"/>
+<KeyFrameDouble value="0.3" frame="120" interpolationType="linear"/>
+</KeyedProperty>
+</KeyedObject>
+</LinearAnimation>
+<LinearAnimation name="Possessed" id="0:404" fps="60" duration="120" loopValue="loop">
+<KeyedObject objectId="0:200">
+<KeyedProperty propertyKey="18">
+<KeyFrameDouble value="1" frame="0" interpolationType="linear"/>
+<KeyFrameDouble value="1" frame="60" interpolationType="linear"/>
+<KeyFrameDouble value="0.5" frame="120" interpolationType="linear"/>
+</KeyedProperty>
+</KeyedObject>
+</LinearAnimation>
+<LinearAnimation name="Jumpscare" id="0:405" fps="60" duration="120" loopValue="loop">
+<KeyedObject objectId="0:200">
+<KeyedProperty propertyKey="18">
+<KeyFrameDouble value="1" frame="0" interpolationType="linear"/>
+<KeyFrameDouble value="1" frame="60" interpolationType="linear"/>
+<KeyFrameDouble value="0.5" frame="120" interpolationType="linear"/>
+</KeyedProperty>
+</KeyedObject>
+</LinearAnimation>
+<LinearAnimation name="Escape" id="0:406" fps="60" duration="120" loopValue="loop">
+<KeyedObject objectId="0:200">
+<KeyedProperty propertyKey="18">
+<KeyFrameDouble value="1" frame="0" interpolationType="linear"/>
+<KeyFrameDouble value="1" frame="60" interpolationType="linear"/>
+<KeyFrameDouble value="0.5" frame="120" interpolationType="linear"/>
+</KeyedProperty>
+</KeyedObject>
+</LinearAnimation>
+</Artboard>
+<ViewModel name="HauntedSystem" id="0:40" defaultInstanceId="0:41">
+<ViewModelPropertyNumber name="state" id="0:101"/>
+<ViewModelPropertyNumber name="ghostX" id="0:102"/>
+<ViewModelPropertyNumber name="ghostY" id="0:103"/>
+<ViewModelPropertyNumber name="entityOpacity" id="0:104"/>
+<ViewModelPropertyNumber name="doorScale" id="0:105"/>
+<ViewModelPropertyNumber name="darkOpacity" id="0:106"/>
+<ViewModelPropertyNumber name="glitch" id="0:107"/>
+<ViewModelPropertyNumber name="mouseX" id="0:108"/>
+<ViewModelPropertyNumber name="mouseY" id="0:109"/>
+<ViewModelPropertyNumber name="cameraShift" id="0:110"/>
+<ViewModelPropertyString name="terminalText" id="0:111"/>
+<ViewModelPropertyString name="currentInput" id="0:112"/>
+<ViewModelPropertyString name="statusText" id="0:113"/>
+<ViewModelPropertyString name="cameraText" id="0:114"/>
+<ViewModelPropertyString name="currentCommand" id="0:115"/>
+<ViewModelPropertyString name="endingText" id="0:116"/>
+<ViewModelPropertyNumber name="scareOpacity" id="0:117"/>
+<ViewModelInstance name="Default" id="0:41" exports="true">
+<ViewModelInstanceNumber viewModelPropertyId="0:101" propertyValue="0"/>
+<ViewModelInstanceNumber viewModelPropertyId="0:102" propertyValue="550"/>
+<ViewModelInstanceNumber viewModelPropertyId="0:103" propertyValue="215"/>
+<ViewModelInstanceNumber viewModelPropertyId="0:104" propertyValue="0.09"/>
+<ViewModelInstanceNumber viewModelPropertyId="0:105" propertyValue="1"/>
+<ViewModelInstanceNumber viewModelPropertyId="0:106" propertyValue="0"/>
+<ViewModelInstanceNumber viewModelPropertyId="0:107" propertyValue="0"/>
+<ViewModelInstanceNumber viewModelPropertyId="0:108" propertyValue="0.5"/>
+<ViewModelInstanceNumber viewModelPropertyId="0:109" propertyValue="0.5"/>
+<ViewModelInstanceNumber viewModelPropertyId="0:110" propertyValue="0"/>
+<ViewModelInstanceString viewModelPropertyId="0:111" propertyValue="HAUNTED SYSTEM OS v6.66 / ACHERON RESEARCH&#10;Connection established. You are not alone.&#10;Type HELP, or click a control. Enter executes."/>
+<ViewModelInstanceString viewModelPropertyId="0:112" propertyValue="> _"/>
+<ViewModelInstanceString viewModelPropertyId="0:113" propertyValue="POWER                  43%&#10;SECURITY               OFFLINE&#10;CONTAINMENT            LOCKED&#10;ENTITY                 DETECTED"/>
+<ViewModelInstanceString viewModelPropertyId="0:114" propertyValue="REC   CAM_01 / CONTROL ROOM"/>
+<ViewModelInstanceString viewModelPropertyId="0:115" propertyValue=""/>
+<ViewModelInstanceString viewModelPropertyId="0:116" propertyValue=""/>
+<ViewModelInstanceNumber viewModelPropertyId="0:117" propertyValue="0"/>
+</ViewModelInstance>
+</ViewModel>
+<FontAsset file="assets/Inter.ttf" name="Inter" id="0:90"/>
+<ScriptAsset file="terminal.luau" name="terminal" id="0:80"/>
+<ScriptAsset file="effects.luau" name="effects" id="0:81"/>
+</Rive>

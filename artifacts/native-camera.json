@@ -1,0 +1,132 @@
+{
+  "schema": 1,
+  "artboard": "The Haunted Terminal",
+  "stateMachine": "Haunted System",
+  "viewModel": {
+    "name": "Default",
+    "viewModel": "HauntedSystem",
+    "properties": [
+      {
+        "name": "state",
+        "path": "state",
+        "type": "number",
+        "value": 0,
+        "changed": false
+      },
+      {
+        "name": "ghostX",
+        "path": "ghostX",
+        "type": "number",
+        "value": 551.52179,
+        "changed": true
+      },
+      {
+        "name": "ghostY",
+        "path": "ghostY",
+        "type": "number",
+        "value": 222.375244,
+        "changed": true
+      },
+      {
+        "name": "entityOpacity",
+        "path": "entityOpacity",
+        "type": "number",
+        "value": 0.0900000036,
+        "changed": false
+      },
+      {
+        "name": "doorScale",
+        "path": "doorScale",
+        "type": "number",
+        "value": 1,
+        "changed": false
+      },
+      {
+        "name": "darkOpacity",
+        "path": "darkOpacity",
+        "type": "number",
+        "value": 0,
+        "changed": false
+      },
+      {
+        "name": "glitch",
+        "path": "glitch",
+        "type": "number",
+        "value": 0,
+        "changed": false
+      },
+      {
+        "name": "mouseX",
+        "path": "mouseX",
+        "type": "number",
+        "value": 0.543479383,
+        "changed": true
+      },
+      {
+        "name": "mouseY",
+        "path": "mouseY",
+        "type": "number",
+        "value": 0.731890082,
+        "changed": true
+      },
+      {
+        "name": "cameraShift",
+        "path": "cameraShift",
+        "type": "number",
+        "value": -16,
+        "changed": true
+      },
+      {
+        "name": "terminalText",
+        "path": "terminalText",
+        "type": "string",
+        "value": "HAUNTED SYSTEM OS v6.66 / ACHERON RESEARCH\nConnection established. You are not alone.\nType HELP, or click a control. Enter executes.\n> CAMERA\nCAMERA 02: anomalous signal detected.",
+        "changed": true
+      },
+      {
+        "name": "currentInput",
+        "path": "currentInput",
+        "type": "string",
+        "value": "> _",
+        "changed": true
+      },
+      {
+        "name": "statusText",
+        "path": "statusText",
+        "type": "string",
+        "value": "POWER                  43%\nSECURITY               OFFLINE\nCONTAINMENT            LOCKED\nENTITY                 DETECTED",
+        "changed": false
+      },
+      {
+        "name": "cameraText",
+        "path": "cameraText",
+        "type": "string",
+        "value": "REC   CAM_02 / EAST CORRIDOR",
+        "changed": true
+      },
+      {
+        "name": "currentCommand",
+        "path": "currentCommand",
+        "type": "string",
+        "value": "",
+        "changed": false
+      },
+      {
+        "name": "endingText",
+        "path": "endingText",
+        "type": "string",
+        "value": "",
+        "changed": false
+      },
+      {
+        "name": "scareOpacity",
+        "path": "scareOpacity",
+        "type": "number",
+        "value": 0,
+        "changed": false
+      }
+    ]
+  },
+  "globals": [],
+  "nested": []
+}

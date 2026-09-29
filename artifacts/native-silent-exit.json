@@ -1,0 +1,132 @@
+{
+  "schema": 1,
+  "artboard": "The Haunted Terminal",
+  "stateMachine": "Haunted System",
+  "viewModel": {
+    "name": "Default",
+    "viewModel": "HauntedSystem",
+    "properties": [
+      {
+        "name": "state",
+        "path": "state",
+        "type": "number",
+        "value": 6,
+        "changed": true
+      },
+      {
+        "name": "ghostX",
+        "path": "ghostX",
+        "type": "number",
+        "value": 559.730896,
+        "changed": true
+      },
+      {
+        "name": "ghostY",
+        "path": "ghostY",
+        "type": "number",
+        "value": 212.886047,
+        "changed": true
+      },
+      {
+        "name": "entityOpacity",
+        "path": "entityOpacity",
+        "type": "number",
+        "value": 0.800000012,
+        "changed": true
+      },
+      {
+        "name": "doorScale",
+        "path": "doorScale",
+        "type": "number",
+        "value": 0.120348744,
+        "changed": true
+      },
+      {
+        "name": "darkOpacity",
+        "path": "darkOpacity",
+        "type": "number",
+        "value": 0.870000005,
+        "changed": true
+      },
+      {
+        "name": "glitch",
+        "path": "glitch",
+        "type": "number",
+        "value": 0,
+        "changed": true
+      },
+      {
+        "name": "mouseX",
+        "path": "mouseX",
+        "type": "number",
+        "value": 0.778025448,
+        "changed": true
+      },
+      {
+        "name": "mouseY",
+        "path": "mouseY",
+        "type": "number",
+        "value": 0.847814083,
+        "changed": true
+      },
+      {
+        "name": "cameraShift",
+        "path": "cameraShift",
+        "type": "number",
+        "value": 0,
+        "changed": false
+      },
+      {
+        "name": "terminalText",
+        "path": "terminalText",
+        "type": "string",
+        "value": "> OPEN_DOOR\nContainment released. Something stopped breathing.\n> LIGHTS_OFF\nLighting disconnected. Two eyes. Neither yours.\n> ESCAPE\nENDING 01: THE SILENT EXIT. Type RESET to return.",
+        "changed": true
+      },
+      {
+        "name": "currentInput",
+        "path": "currentInput",
+        "type": "string",
+        "value": "> _",
+        "changed": true
+      },
+      {
+        "name": "statusText",
+        "path": "statusText",
+        "type": "string",
+        "value": "POWER                  34%\nSECURITY               OFFLINE\nCONTAINMENT            OPEN\nENTITY                 CONFIRMED",
+        "changed": true
+      },
+      {
+        "name": "cameraText",
+        "path": "cameraText",
+        "type": "string",
+        "value": "REC   CAM_01 / CONTROL ROOM",
+        "changed": false
+      },
+      {
+        "name": "currentCommand",
+        "path": "currentCommand",
+        "type": "string",
+        "value": "",
+        "changed": false
+      },
+      {
+        "name": "endingText",
+        "path": "endingText",
+        "type": "string",
+        "value": "YOU ESCAPED. / No light. No shadow. Nothing to follow.",
+        "changed": true
+      },
+      {
+        "name": "scareOpacity",
+        "path": "scareOpacity",
+        "type": "number",
+        "value": 0,
+        "changed": false
+      }
+    ]
+  },
+  "globals": [],
+  "nested": []
+}

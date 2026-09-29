@@ -1,0 +1,132 @@
+{
+  "schema": 1,
+  "artboard": "The Haunted Terminal",
+  "stateMachine": "Haunted System",
+  "viewModel": {
+    "name": "Default",
+    "viewModel": "HauntedSystem",
+    "properties": [
+      {
+        "name": "state",
+        "path": "state",
+        "type": "number",
+        "value": 0,
+        "changed": true
+      },
+      {
+        "name": "ghostX",
+        "path": "ghostX",
+        "type": "number",
+        "value": 560.81488,
+        "changed": true
+      },
+      {
+        "name": "ghostY",
+        "path": "ghostY",
+        "type": "number",
+        "value": 213.995346,
+        "changed": true
+      },
+      {
+        "name": "entityOpacity",
+        "path": "entityOpacity",
+        "type": "number",
+        "value": 0.0900000036,
+        "changed": true
+      },
+      {
+        "name": "doorScale",
+        "path": "doorScale",
+        "type": "number",
+        "value": 1,
+        "changed": true
+      },
+      {
+        "name": "darkOpacity",
+        "path": "darkOpacity",
+        "type": "number",
+        "value": 0,
+        "changed": false
+      },
+      {
+        "name": "glitch",
+        "path": "glitch",
+        "type": "number",
+        "value": 0,
+        "changed": true
+      },
+      {
+        "name": "mouseX",
+        "path": "mouseX",
+        "type": "number",
+        "value": 0.808996856,
+        "changed": true
+      },
+      {
+        "name": "mouseY",
+        "path": "mouseY",
+        "type": "number",
+        "value": 0.927050173,
+        "changed": true
+      },
+      {
+        "name": "cameraShift",
+        "path": "cameraShift",
+        "type": "number",
+        "value": 0,
+        "changed": false
+      },
+      {
+        "name": "terminalText",
+        "path": "terminalText",
+        "type": "string",
+        "value": "HAUNTED SYSTEM OS v6.66 / ACHERON RESEARCH\nConnection established. You are not alone.\nType HELP, or click a control. Enter executes.",
+        "changed": true
+      },
+      {
+        "name": "currentInput",
+        "path": "currentInput",
+        "type": "string",
+        "value": "> _",
+        "changed": true
+      },
+      {
+        "name": "statusText",
+        "path": "statusText",
+        "type": "string",
+        "value": "POWER                  43%\nSECURITY               OFFLINE\nCONTAINMENT            LOCKED\nENTITY                 DETECTED",
+        "changed": true
+      },
+      {
+        "name": "cameraText",
+        "path": "cameraText",
+        "type": "string",
+        "value": "REC   CAM_01 / CONTROL ROOM",
+        "changed": false
+      },
+      {
+        "name": "currentCommand",
+        "path": "currentCommand",
+        "type": "string",
+        "value": "",
+        "changed": false
+      },
+      {
+        "name": "endingText",
+        "path": "endingText",
+        "type": "string",
+        "value": "",
+        "changed": true
+      },
+      {
+        "name": "scareOpacity",
+        "path": "scareOpacity",
+        "type": "number",
+        "value": 0,
+        "changed": true
+      }
+    ]
+  },
+  "globals": [],
+  "nested": []
+}
